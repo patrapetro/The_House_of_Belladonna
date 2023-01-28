@@ -1,7 +1,4 @@
-##CURRENT VERSION 8.30pm 27/1/23
-
-#great - just fix up ending "you won" screen
-#put in a restart and quit button
+#import modules
 import pygame
 import time
 
