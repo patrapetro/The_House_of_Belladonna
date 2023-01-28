@@ -89,43 +89,21 @@ potions_fx=pygame.mixer.Sound("score.ogg")
 lost_life_fx=pygame.mixer.Sound("retro_misc_05.ogg")
 
 defeat_count=pygame.mixer.Sound("life.ogg")
-
-
-
-#BROOM SOUNDS FROM: Credit isn't necessary. If you want to give credit anyway, it can be attributed to "Ctskelgysth Inauaruat", "Ctskelgysth", or just "Ctske" depending on space limitations and what works best for your project.
-##broom_fx=pygame.mixer.Sound("./FINAL_SOUNDS/square_partyjoin.ogg")
 broom_fx=pygame.mixer.Sound("positive.ogg")
-
 wand_fx=pygame.mixer.Sound("power_up_04.ogg")
-
-
-
-#animal_fx
-# SOUNDS FROM: Credit isn't necessary. If you want to give credit anyway, it can be attributed to "Ctskelgysth Inauaruat", "Ctskelgysth", or just "Ctske" depending on space limitations and what works best for your project.
-
 animal_fx=pygame.mixer.Sound("square_partyjoin.ogg")
-
-#final round fx
 final_fx=pygame.mixer.Sound("warning.ogg")
 final2_fx=pygame.mixer.Sound("evil_laugh.ogg")
 spell_fx=pygame.mixer.Sound("twink.ogg")
-
-#die
 die_fx=pygame.mixer.Sound("die.ogg")
-
-#ambient horror sounds from Copyright/Attribution Notice: Attribute Little Robot Sound Factory, and provide this link where possible: www.littlerobotsoundfactory.com
 pygame.mixer.music.load("Ambience_Hell_01.ogg")
 pygame.mixer.music.play(-1, 0.0,5000)
-
-
-
 
 #create function to write text on screen
 
 def draw_text(text, font, text_col, x, y):
         img = font.render(text, True, text_col)
         screen.blit(img, (x, y))
-
 
 #create classes
 class Button():
